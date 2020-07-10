@@ -5,173 +5,250 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hackathon5</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/main.css">
 </head>
 
 <body>
     <header>
-        <div>
-            <a href="">LOGO</a>
-            <ul>
+        <div class="logo">
+            <img src="./images/letter-a.png" alt="LOGO">
+            <ul class="logo2">
                 <li><a href="">Home</a></li>
                 <li><a href="">Espectaculos</a></li>
                 <li><a href="">Deportes</a></li>
             </ul>
         </div>
-        <div>
+        <div class="blog">
             <h1>Blog Afrianska</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                 dolore magna aliqua.</p>
         </div>
     </header>
     <main>
-        <input type="text" name="text-search" placeholder="Search Article">
-        <h2>POPULAR</h2>
-        <div>
-            <div>
-                <h2>Feugiat sodales at nullam tellus.</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Mi posuere nibh tempor fringilla porta pellentesque ipsum. Lorem ipsum dolor
-                    sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.</p>
-                <h3>Samatha Leuthex</h3>
-                <h4>May 5, 3 min read</h4>
-                <a href=""><img src="./images/save.png" alt=""></a>
-                <a href=""><img src="./images/share.png" alt=""></a>
-                <figure>
-                    <img src="./images/popular1.png" alt="">
-                </figure>
+        <div class="wrap">
+            <div class="search1">
+            <input class="search" type="text" name="text-search" placeholder="Search Article">
             </div>
-        </div>
-        <div>
-            <div>
-                <figure>
-                    <img src="./images/popular2.png" alt="">
-                </figure>
-                <h2>Porta proin tellus sed pulvinar odio eu pulvinar.</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua.</p>
-                <h3>Samatha Leuthex</h3>
-                <h4>May 5, 3 min read</h4>
-                <a href=""><img src="./images/save.png" alt=""></a>
-                <a href=""><img src="./images/share.png" alt=""></a>
+            <h2 class="popular">POPULAR</h2>
+            <div class="article">
+                <div>
+                    <h2 class="title1">Feugiat sodales at nullam tellus.</h2>
+                    <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                        et dolore magna aliqua. Mi posuere nibh tempor fringilla porta pellentesque ipsum. Lorem ipsum dolor
+                        sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua.</p>
+                    <br>
+                <div class="content">
+                    <div>    
+                        <h3>Samatha Leuthex</h3>
+                        <h4>May 5, 3 min read</h4>
+                    </div>
+                    <div>
+                        <a href=""><img src="./images/save.png" alt=""></a>
+                        <a href=""><img src="./images/share.png" alt=""></a>
+                    </div>  
+                </div>
+                </div>
+                <div>    
+                    <div class="img1">
+                        <img src="./images/popular1.png" alt="">
+                    </div>
+                </div>
             </div>
-        </div>
-        <div>
-            <div>
-                <figure>
-                    <img src="./images/popular3.png" alt="">
-                </figure>
-                <h2>Porta proin tellus sed pulvinar odio eu pulvinar.</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua.</p>
-                <h3>Samatha Leuthex</h3>
-                <h4>May 5, 3 min read</h4>
-                <a href=""><img src="./images/save.png" alt=""></a>
-                <a href=""><img src="./images/share.png" alt=""></a>
+            <div class="grid">
+                <div>
+                    <figure>
+                        <img src="./images/popular2.png" alt="">
+                    </figure>
+                    <h2 class="subtitle">Porta proin tellus sed pulvinar odio eu pulvinar.</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                        et dolore magna aliqua.</p>
+                    <div class="container1">
+                    <div>
+                    <h3>Samatha Leuthex</h3>
+                    <h4>May 5, 3 min read</h4>
+                    </div>
+                    <div>
+                    <a href=""><img src="./images/save.png" alt=""></a>
+                    <a href=""><img src="./images/share.png" alt=""></a>
+                    </div>
+                    </div>
+                </div>
+                <div>
+                    <figure>
+                        <img src="./images/popular3.png" alt="">
+                    </figure>
+                    <h2 class="subtitle">Non quam tortor, proin eu egestas scelerisque.</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                        et dolore magna aliqua.</p>
+                    <div class="container1">
+                    <div>
+                    <h3>Samatha Leuthex</h3>
+                    <h4>May 5, 3 min read</h4>
+                    </div>
+                    <div>
+                    <a href=""><img src="./images/save.png" alt=""></a>
+                    <a href=""><img src="./images/share.png" alt=""></a>
+                    </div>
+                    </div>
+                </div>
+                <div>
+                    <figure>
+                        <img src="./images/popular4.png" alt="">
+                    </figure>
+                    <h2 class="subtitle">Amet amet sed pharetra risus sit eget interdum.</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                        et dolore magna aliqua.</p>
+                    <div class="container1">
+                    <div>
+                    <h3>Samatha Leuthex</h3>
+                    <h4>May 5, 3 min read</h4>
+                    </div>
+                    <div>
+                    <a href=""><img src="./images/save.png" alt=""></a>
+                    <a href=""><img src="./images/share.png" alt=""></a>
+                    </div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div>
-            <div>
-                <figure>
-                    <img src="./images/popular4.png" alt="">
-                </figure>
-                <h2>Porta proin tellus sed pulvinar odio eu pulvinar.</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua.</p>
-                <h3>Samatha Leuthex</h3>
-                <h4>May 5, 3 min read</h4>
-                <a href=""><img src="./images/save.png" alt=""></a>
-                <a href=""><img src="./images/share.png" alt=""></a>
+            <br>
+            <div class="artc"><h2>SEE ALL POPULAR ARTICLE</h2></div>
+            <br>
+            <hr>
+            <br>
+        <section>
+            <h2 class="popular">ALL ARTICLE</h2>
+            <div class="article1">
+                <img src="./images/article1.png" alt="">
+                <div>
+                <h2 class="subtitle2">Massa eu in laoreet enim augue vulputate nunc.</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Lectus quisque magna in nisl nibh bibendum ipsum, elit duis. Donec.</p>
+                <div class="container1">
+                    <div>
+                    <h3>Samatha Leuthex</h3>
+                    <h4>May 5, 3 min read</h4>
+                    </div>
+                    <div>
+                    <a href=""><img src="./images/save.png" alt=""></a>
+                    <a href=""><img src="./images/share.png" alt=""></a>
+                    </div>
+                    </div>
+                </div>
             </div>
+            <div class="article1">
+                <img src="./images/article2.png" alt="">
+                <div>
+                <h2 class="subtitle2">Feugiat a euismod arcu feugiat posuere morbi.</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Lectus quisque magna in nisl nibh bibendum ipsum, elit duis. Donec.</p>
+                <div class="container1">
+                    <div>
+                    <h3>Samatha Leuthex</h3>
+                    <h4>May 5, 3 min read</h4>
+                    </div>
+                    <div>
+                    <a href=""><img src="./images/save.png" alt=""></a>
+                    <a href=""><img src="./images/share.png" alt=""></a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="article1">
+                <img src="./images/article3.png" alt="">
+                <div>
+                <h2 class="subtitle2">Sociis purus pellentesque faucibus vitae et felis.</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Lectus quisque magna in nisl nibh bibendum ipsum, elit duis. Donec.</p>
+                <div class="container1">
+                    <div>
+                    <h3>Samatha Leuthex</h3>
+                    <h4>May 5, 3 min read</h4>
+                    </div>
+                    <div>
+                    <a href=""><img src="./images/save.png" alt=""></a>
+                    <a href=""><img src="./images/share.png" alt=""></a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="article1">
+                <img src="./images/article4.png" alt="">
+                <div>
+                <h2 class="subtitle2">Cursus feugiat mi pellentesque mauris sed eu.</h2>      
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Lectus quisque magna in nisl nibh bibendum ipsum, elit duis. Donec.</p>
+                <div class="container1">
+                    <div>
+                    <h3>Samatha Leuthex</h3>
+                    <h4>May 5, 3 min read</h4>
+                    </div>
+                    <div>
+                    <a href=""><img src="./images/save.png" alt=""></a>
+                    <a href=""><img src="./images/share.png" alt=""></a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="article1">
+                <img src="./images/article5.png" alt="">
+                <div>
+                <h2 class="subtitle2">A morbi arcu curabitur etiam fringilla augue.</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Lectus quisque magna in nisl nibh bibendum ipsum, elit duis. Donec.</p>
+                <div class="container1">
+                    <div>
+                    <h3>Samatha Leuthex</h3>
+                    <h4>May 5, 3 min read</h4>
+                    </div>
+                    <div>
+                    <a href=""><img src="./images/save.png" alt=""></a>
+                    <a href=""><img src="./images/share.png" alt=""></a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="post">
+                <div class="new"><h2>Old Post</h2></div>
+                <div class="new"><h2>New Post</h2></div>
+            </div>
+        </section>
         </div>
-        <br>
-        <h2>SEE ALL POPULAR ARTICLE</h2>
-        <br>
-        <div class="division"></div>
     </main>
-    <section>
-        <h2>ALL ARTICLE</h2>
-        <div>
-            <img src="./images/article1.png" alt="">
-            <h2>Massa eu in laoreet enim augue vulputate nunc.</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Lectus quisque magna in nisl nibh bibendum ipsum, elit duis. Donec.</p>
-            <h3>Samatha Leuthex</h3>
-            <h4>May 5, 3 min read</h4>
-            <a href=""><img src="./images/save.png" alt=""></a>
-            <a href=""><img src="./images/share.png" alt=""></a>
-        </div>
-        <div>
-            <img src="./images/article2.png" alt="">
-            <h2>Feugiat a euismod arcu feugiat posuere morbi.</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Lectus quisque magna in nisl nibh bibendum ipsum, elit duis. Donec.</p>
-            <h3>Samatha Leuthex</h3>
-            <h4>May 5, 3 min read</h4>
-            <a href=""><img src="./images/save.png" alt=""></a>
-            <a href=""><img src="./images/share.png" alt=""></a>
-        </div>
-        <div>
-            <img src="./images/article3.png" alt="">
-            <h2>Sociis purus pellentesque faucibus vitae et felis.</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Lectus quisque magna in nisl nibh bibendum ipsum, elit duis. Donec.</p>
-            <h3>Samatha Leuthex</h3>
-            <h4>May 5, 3 min read</h4>
-            <a href=""><img src="./images/save.png" alt=""></a>
-            <a href=""><img src="./images/share.png" alt=""></a>
-        </div>
-        <div>
-            <img src="./images/article4.png" alt="">
-            <h2>Cursus feugiat mi pellentesque mauris sed eu.</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Lectus quisque magna in nisl nibh bibendum ipsum, elit duis. Donec.</p>
-            <h3>Samatha Leuthex</h3>
-            <h4>May 5, 3 min read</h4>
-            <a href=""><img src="./images/save.png" alt=""></a>
-            <a href=""><img src="./images/share.png" alt=""></a>
-        </div>
-        <div>
-            <img src="./images/article5.png" alt="">
-            <h2>A morbi arcu curabitur etiam fringilla augue.</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Lectus quisque magna in nisl nibh bibendum ipsum, elit duis. Donec.</p>
-            <h3>Samatha Leuthex</h3>
-            <h4>May 5, 3 min read</h4>
-            <a href=""><img src="./images/save.png" alt=""></a>
-            <a href=""><img src="./images/share.png" alt=""></a>
-        </div>
-        <div>
-            <div><h2>Old Post</h2></div>
-            <div><h2>New Post</h2></div>
-        </div>
-    </section>
     <footer>
-        <div>
-            <h2>Intersted to woek with our team?</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-            <input type="text" placeholder="Let’s Talk">
-        </div>
-        <div class="division"></div>
-        <div>
+        <div class="footer">
+        <div class="foot">
             <div>
-                <a href="">A</a>
-                <h2>Afrianska</h2>
-                <ul>
+            <h2 class="titlefinal">Intersted to woek <br> with our team?</h2>
+            <p class="su">Lorem ipsum dolor sit amet, consectetur adipisicing elit, <br> sed do eiusmod tempor incididunt ut labore et dolore <br> magna aliqua. Ut enim ad minim veniam.</p>
+            </div>
+            <div>
+            <button class="button">Let’s Talk</button>
+        </div>
+        </div>
+        <hr>
+        <div class="foot1">
+            <div>
+                <div class="afrian">
+                <img src="./images/letter-a.png" alt="">
+                <h2 class="titlefinal2">Afrianska</h2>
+                </div>
+                <ul class="contact">
                     <li>A.</li>
                     <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
                 </ul>
-                <ul>
+                <ul class="contact">
                     <li>T.</li>
                     <li>+62-812-7313-4321</li>
                 </ul>
-                <ul>
+                <ul class="contact">
                     <li>E</li>
                     <li>hello.afrian@gmail.com</li>
                 </ul>
             </div>
             <div>
-                <h2>About US</h2>
+                <h2 class="titlefinal2">About US</h2>
                 <ul>
                     <li>About</li>
                     <li>What We Do</li>
@@ -180,7 +257,7 @@
                 </ul>
             </div>
             <div>
-                <h2>Follow US</h2>
+                <h2 class="titlefinal2">Follow US</h2>
                 <ul>
                     <li>Instagram</li>
                     <li>Facebook</li>
@@ -188,7 +265,8 @@
                     <li>Youtube</li>
                 </ul>
             </div>
-            <p>2019 © Afrianska. All rights reserved.</p>
+        </div>
+        <p>2019 © Afrianska. All rights reserved.</p>
         </div>
     </footer>
 </body>
